@@ -123,6 +123,14 @@ section{
     position: relative;
     right: 170px;
 }
+#eml{
+    position: relative;
+    left: 48px;
+}
+#det{
+    position: relative;
+    left: 20px;
+}
 #phn{
     position: relative;
     left: 50px;
