@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 20px;
+    font-size: 23px;
+}
+.topleft{
+    width: 50%;
+    padding: 12px 0;
+}
+.topright{
+    width: 50%;
+    padding: 12px 0;
+}
+.section1{
+    max-height: 100vh;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+.section1 span{
+    color: rgb(186 17 17);
+    font-weight: bold;
+    font-size: 20px;
+}
+.section2{
+    padding: 73px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.section2 span{
+    font-weight: bold;
+    color: rgb(186 17 17);
+    font-size: 20px;
+}
+.btn{
+    border: 2px solid black;
+    padding: 7px 12px;
+    color: white;
+    background-color: rgb(57, 189, 86);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.logo{
+    font-size: 2rem;
+}
+.dumbellimg{
+    height: 114px;
+    width: 152px;
+    padding: 10 100px;
+}
+
+.box{
+    padding: 12px 0;
+    margin: 12px 12px;
+    min-width: 23vw;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h2{
+    padding: 15px 0;
+}
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    padding: 73px;
+}
+.section3 h1{
+    font-size: 2rem;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top:25px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 13px 0;
+    
+}
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 table tr{
+    border-bottom: 2px solid black;
+}
+
+footer{
+    padding: 23px;
+}
+
